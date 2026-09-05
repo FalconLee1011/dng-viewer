@@ -1,0 +1,6 @@
+ExifRead==3.5.1
+numpy==2.4.6
+pillow==12.3.0
+PySide6_Essentials==6.11.2
+rawpy==0.25.1
+shiboken6==6.11.2
