@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyside6-essentials = ">=6.8,<7"
+rawpy = "==0.25.1"
+pillow = ">=11,<13"
+exifread = ">=3,<4"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+
+[scripts]
+start = "python main.py"
+test = "python -m unittest discover -s tests -v"
